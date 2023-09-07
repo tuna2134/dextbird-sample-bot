@@ -11,6 +11,7 @@ python = "^3.10"
 dextbird = {git = "https://github.com/tuna2134/discord-ext-songbird.git"}
 aiohttp = "^3.8.5"
 python-dotenv = "^1.0.0"
+jishaku = "^2.5.1"
 
 [tool.poetry.group.dev.dependencies]
 black = "^23.7.0"
