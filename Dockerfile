@@ -13,6 +13,8 @@ FROM python:3
 WORKDIR /app
 
 COPY --from=builder /builder/requirements.txt .
+RUN apt-get update
+RUN apt-get install -y git
 RUN pip3 install -r requirements.txt
 
 COPY ./src/ .
