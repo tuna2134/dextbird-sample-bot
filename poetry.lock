@@ -344,7 +344,7 @@ develop = false
 type = "git"
 url = "https://github.com/tuna2134/discord-ext-songbird.git"
 reference = "HEAD"
-resolved_reference = "5a08edc9250bd6ec154126316d0739cef55271df"
+resolved_reference = "0d85342dd1ecb0721d22e75b07fda215ffcc9e21"
 
 [[package]]
 name = "discord-py"

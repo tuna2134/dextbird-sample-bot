@@ -25,7 +25,7 @@ class TTSCog(commands.Cog):
             },
         ) as aqr:
             data = await aqr.json()
-            data["outputStereo"] = False
+            data["outputStereo"] = True
             data["outputSamplingRate"] = 48000
             async with self._session.post(
                 f"{ENDPOINT}/synthesis",
