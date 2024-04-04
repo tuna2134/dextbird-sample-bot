@@ -14,7 +14,7 @@ python-dotenv = "^1.0.0"
 jishaku = "^2.5.1"
 
 [tool.poetry.group.dev.dependencies]
-black = "^23.7.0"
+black = "^24.0.0"
 
 [build-system]
 requires = ["poetry-core"]
